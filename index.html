@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>카페 모먼트 | Cafe Moment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#home" class="logo">Cafe <span>Moment</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">소개</a>
+      <a href="#menu">메뉴</a>
+      <a href="#gallery">갤러리</a>
+      <a href="#location">오시는 길</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero__bg"></div>
+  <div class="container hero__content">
+    <p class="hero__eyebrow">HANDCRAFTED COFFEE &amp; SLOW MORNING</p>
+    <h1>천천히, <br>당신만의 순간을 위한 카페</h1>
+    <p class="hero__desc">직접 로스팅한 원두와 정성스러운 디저트로<br>바쁜 하루 속 작은 쉼표를 선물합니다.</p>
+    <div class="hero__actions">
+      <a href="#menu" class="btn btn--primary">메뉴 보기</a>
+      <a href="#location" class="btn btn--ghost">오시는 길</a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down" aria-label="아래로 스크롤">↓</a>
+</section>
+
+<section class="about" id="about">
+  <div class="container about__inner">
+    <div class="about__text">
+      <p class="section-eyebrow">ABOUT US</p>
+      <h2>매일 아침, 좋은 원두를 고릅니다</h2>
+      <p>카페 모먼트는 2019년, "제대로 된 한 잔"이라는 마음으로 문을 열었습니다.
+      전 세계 스페셜티 원두를 직접 골라 로스팅하고, 최적의 온도와 비율로 추출합니다.
+      바쁜 하루 속에서도 잠시 멈춰 온전히 커피를 즐길 수 있는 공간이 되고자 합니다.</p>
+      <div class="about__stats">
+        <div class="stat">
+          <strong>05</strong>
+          <span>년간의 로스팅 경험</span>
+        </div>
+        <div class="stat">
+          <strong>12</strong>
+          <span>가지 시그니처 메뉴</span>
+        </div>
+        <div class="stat">
+          <strong>4.9</strong>
+          <span>평균 방문객 만족도</span>
+        </div>
+      </div>
+    </div>
+    <div class="about__visual">
+      <div class="about__card about__card--1">☕️</div>
+      <div class="about__card about__card--2">🌿</div>
+      <div class="about__card about__card--3">🍰</div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="container">
+    <p class="section-eyebrow center">MENU</p>
+    <h2 class="center">시그니처 메뉴</h2>
+    <p class="section-desc center">엄선된 원두와 신선한 재료로 만드는 카페 모먼트의 대표 메뉴입니다.</p>
+
+    <div class="menu__grid">
+      <div class="menu__card">
+        <div class="menu__icon">☕️</div>
+        <h3>모먼트 블렌드</h3>
+        <p>은은한 산미와 고소한 여운의 하우스 블렌드 커피</p>
+        <span class="price">4,800원</span>
+      </div>
+      <div class="menu__card">
+        <div class="menu__icon">🧋</div>
+        <h3>바닐라 라떼</h3>
+        <p>마다가스카르 바닐라빈으로 만든 부드러운 라떼</p>
+        <span class="price">5,500원</span>
+      </div>
+      <div class="menu__card">
+        <div class="menu__icon">🍫</div>
+        <h3>다크초콜릿 모카</h3>
+        <p>진한 초콜릿과 에스프레소가 어우러진 진한 한 잔</p>
+        <span class="price">5,800원</span>
+      </div>
+      <div class="menu__card">
+        <div class="menu__icon">🍋</div>
+        <h3>레몬 에이드</h3>
+        <p>상큼한 레몬과 탄산이 만나 청량감을 더한 논커피 메뉴</p>
+        <span class="price">5,500원</span>
+      </div>
+      <div class="menu__card">
+        <div class="menu__icon">🥐</div>
+        <h3>버터 크루아상</h3>
+        <p>매일 아침 굽는 겹겹이 바삭한 프렌치 크루아상</p>
+        <span class="price">4,200원</span>
+      </div>
+      <div class="menu__card">
+        <div class="menu__icon">🍰</div>
+        <h3>바스크 치즈케이크</h3>
+        <p>진하고 부드러운 스페인식 수제 치즈케이크</p>
+        <span class="price">6,500원</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <p class="section-eyebrow center">GALLERY</p>
+    <h2 class="center">카페 모먼트의 순간들</h2>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--1"></div>
+      <div class="gallery__item gallery__item--2"></div>
+      <div class="gallery__item gallery__item--3"></div>
+      <div class="gallery__item gallery__item--4"></div>
+    </div>
+  </div>
+</section>
+
+<section class="location" id="location">
+  <div class="container location__inner">
+    <div class="location__info">
+      <p class="section-eyebrow">VISIT US</p>
+      <h2>오시는 길</h2>
+      <ul class="info-list">
+        <li>
+          <strong>주소</strong>
+          <span>서울특별시 마포구 어울림길 12, 1층</span>
+        </li>
+        <li>
+          <strong>영업시간</strong>
+          <span>매일 09:00 - 21:00 (라스트오더 20:30)</span>
+        </li>
+        <li>
+          <strong>전화</strong>
+          <span>02-1234-5678</span>
+        </li>
+        <li>
+          <strong>인스타그램</strong>
+          <span>@cafe.moment</span>
+        </li>
+      </ul>
+    </div>
+    <div class="location__map" role="img" aria-label="카페 위치 지도 이미지">
+      <span>MAP</span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>&copy; 2026 Cafe Moment. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
