@@ -6,7 +6,7 @@
 <title>카페 모먼트 | Cafe Moment</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
     <a href="#home" class="logo">Cafe <span>Moment</span></a>
     <nav class="nav" id="nav">
       <a href="#about">소개</a>
+      <a href="#story">이야기</a>
       <a href="#menu">메뉴</a>
       <a href="#gallery">갤러리</a>
       <a href="#location">오시는 길</a>
@@ -67,6 +68,210 @@
       <div class="about__card about__card--1">☕️</div>
       <div class="about__card about__card--2">🌿</div>
       <div class="about__card about__card--3">🍰</div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="container">
+    <p class="section-eyebrow center">OUR STORY IN DIAGRAMS</p>
+    <h2 class="center">숫자와 흐름으로 보는 카페 모먼트</h2>
+    <p class="section-desc center">한 잔의 커피가 만들어지는 과정부터 메뉴 구성, 방문 경험까지&mdash;카페 모먼트를 세 가지 다이어그램으로 정리했습니다.</p>
+
+    <div class="story__grid">
+      <div class="story__card">
+        <p class="story__eyebrow">PROCESS</p>
+        <h3>원두에서 한 잔까지</h3>
+        <div class="story__diagram">
+          <svg viewBox="0 0 896 112" role="img" aria-labelledby="beanpath-title beanpath-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="beanpath-title">원두에서 한 잔까지</title>
+            <desc id="beanpath-desc">원두 선별, 로스팅, 그라인딩, 추출, 서빙으로 이어지는 카페 모먼트의 커피 제조 5단계 과정을 보여주는 다이어그램입니다.</desc>
+            <defs>
+              <marker id="beanpath-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+                <polygon points="0 0, 8 3, 0 6" fill="#a9805f"/>
+              </marker>
+            </defs>
+            <rect width="896" height="112" fill="#faf6f1"/>
+
+            <line x1="168" y1="56" x2="200" y2="56" stroke="#a9805f" stroke-width="1" marker-end="url(#beanpath-arrow)"/>
+            <line x1="344" y1="56" x2="376" y2="56" stroke="#a9805f" stroke-width="1" marker-end="url(#beanpath-arrow)"/>
+            <line x1="520" y1="56" x2="552" y2="56" stroke="#a9805f" stroke-width="1" marker-end="url(#beanpath-arrow)"/>
+            <line x1="696" y1="56" x2="728" y2="56" stroke="#a9805f" stroke-width="1" marker-end="url(#beanpath-arrow)"/>
+
+            <g>
+              <rect x="24" y="24" width="144" height="64" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+              <rect x="32" y="32" width="24" height="12" rx="2" fill="none" stroke="#2b211a" stroke-opacity="0.35" stroke-width="0.8"/>
+              <text x="44" y="41" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7" fill="#6f4e37">01</text>
+              <text x="96" y="56" text-anchor="middle" font-size="20">🌱</text>
+              <text x="96" y="76" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">원두 선별</text>
+            </g>
+
+            <g>
+              <rect x="200" y="24" width="144" height="64" rx="6" fill="rgba(201,138,75,0.14)" stroke="#c98a4b" stroke-width="1.2"/>
+              <rect x="208" y="32" width="24" height="12" rx="2" fill="none" stroke="#c98a4b" stroke-opacity="0.6" stroke-width="0.8"/>
+              <text x="220" y="41" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7" fill="#c98a4b">02</text>
+              <text x="272" y="56" text-anchor="middle" font-size="20">🔥</text>
+              <text x="272" y="76" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">로스팅</text>
+            </g>
+
+            <g>
+              <rect x="376" y="24" width="144" height="64" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+              <rect x="384" y="32" width="24" height="12" rx="2" fill="none" stroke="#2b211a" stroke-opacity="0.35" stroke-width="0.8"/>
+              <text x="396" y="41" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7" fill="#6f4e37">03</text>
+              <text x="448" y="56" text-anchor="middle" font-size="20">⚙️</text>
+              <text x="448" y="76" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">그라인딩</text>
+            </g>
+
+            <g>
+              <rect x="552" y="24" width="144" height="64" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+              <rect x="560" y="32" width="24" height="12" rx="2" fill="none" stroke="#2b211a" stroke-opacity="0.35" stroke-width="0.8"/>
+              <text x="572" y="41" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7" fill="#6f4e37">04</text>
+              <text x="624" y="56" text-anchor="middle" font-size="20">💧</text>
+              <text x="624" y="76" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">추출</text>
+            </g>
+
+            <g>
+              <rect x="728" y="24" width="144" height="64" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+              <rect x="736" y="32" width="24" height="12" rx="2" fill="none" stroke="#2b211a" stroke-opacity="0.35" stroke-width="0.8"/>
+              <text x="748" y="41" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7" fill="#6f4e37">05</text>
+              <text x="800" y="56" text-anchor="middle" font-size="20">☕</text>
+              <text x="800" y="76" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">서빙</text>
+            </g>
+          </svg>
+        </div>
+        <p class="story__caption">엄선한 원두를 직접 로스팅해 최적의 상태로 추출하는, 카페 모먼트만의 5단계 과정입니다.</p>
+      </div>
+
+      <div class="story__card">
+        <p class="story__eyebrow">CUSTOMER JOURNEY</p>
+        <h3>카페 이용 안내</h3>
+        <div class="story__diagram">
+          <svg viewBox="0 0 1184 352" role="img" aria-labelledby="visitflow-title visitflow-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="visitflow-title">카페 이용 안내</title>
+            <desc id="visitflow-desc">방문, 주문, 대기, 픽업 및 착석, 이용까지 5단계에 걸친 고객 경험과 각 단계의 체감 만족도 흐름을 보여주는 여정 지도입니다.</desc>
+            <rect width="1184" height="352" fill="#faf6f1"/>
+
+            <!-- stage headers -->
+            <text x="164" y="20" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">STAGE 1</text>
+            <text x="164" y="40" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">방문</text>
+            <text x="388" y="20" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">STAGE 2</text>
+            <text x="388" y="40" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">주문</text>
+            <text x="612" y="20" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">STAGE 3</text>
+            <text x="612" y="40" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">대기</text>
+            <text x="836" y="20" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">STAGE 4</text>
+            <text x="836" y="40" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">픽업·착석</text>
+            <text x="1060" y="20" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">STAGE 5</text>
+            <text x="1060" y="40" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">이용·여운</text>
+
+            <!-- sentiment band -->
+            <line x1="64" y1="64" x2="1160" y2="64" stroke="rgba(43,33,26,0.12)" stroke-width="0.8"/>
+            <line x1="64" y1="144" x2="1160" y2="144" stroke="rgba(43,33,26,0.12)" stroke-width="0.8"/>
+            <line x1="64" y1="224" x2="1160" y2="224" stroke="rgba(43,33,26,0.12)" stroke-width="0.8"/>
+            <text x="60" y="67" text-anchor="end" font-family="'Geist Mono',monospace" font-size="8" fill="#6f4e37">HIGH</text>
+            <text x="60" y="147" text-anchor="end" font-family="'Geist Mono',monospace" font-size="8" fill="#6f4e37">NEUTRAL</text>
+            <text x="60" y="227" text-anchor="end" font-family="'Geist Mono',monospace" font-size="8" fill="#6f4e37">LOW</text>
+
+            <polyline points="164,144 388,104" fill="none" stroke="#a9805f" stroke-width="1.5"/>
+            <polyline points="388,104 612,224" fill="none" stroke="#c98a4b" stroke-width="1.5"/>
+            <polyline points="612,224 836,104" fill="none" stroke="#a9805f" stroke-width="1.5"/>
+            <polyline points="836,104 1060,64" fill="none" stroke="#a9805f" stroke-width="1.5"/>
+
+            <circle cx="164" cy="144" r="5" fill="#faf6f1" stroke="#a9805f" stroke-width="1.5"/>
+            <circle cx="388" cy="104" r="5" fill="#faf6f1" stroke="#a9805f" stroke-width="1.5"/>
+            <circle cx="612" cy="224" r="5" fill="#faf6f1" stroke="#c98a4b" stroke-width="1.5"/>
+            <circle cx="836" cy="104" r="5" fill="#faf6f1" stroke="#a9805f" stroke-width="1.5"/>
+            <circle cx="1060" cy="64" r="5" fill="#faf6f1" stroke="#a9805f" stroke-width="1.5"/>
+
+            <line x1="64" y1="232" x2="1160" y2="232" stroke="rgba(43,33,26,0.12)" stroke-width="0.8"/>
+
+            <!-- actions row -->
+            <text x="60" y="259" text-anchor="end" font-family="'Geist Mono',monospace" font-size="8" letter-spacing="0.14em" fill="#6f4e37">ACTIONS</text>
+            <text x="164" y="259" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#2b211a">매장 입장</text>
+            <text x="388" y="259" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#2b211a">메뉴 선택·주문</text>
+            <text x="612" y="259" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#2b211a">제조 대기</text>
+            <text x="836" y="259" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#2b211a">픽업 후 착석</text>
+            <text x="1060" y="259" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#2b211a">여유롭게 즐기기</text>
+
+            <rect x="572" y="266" width="80" height="20" rx="2" fill="rgba(201,138,75,0.10)" stroke="#c98a4b" stroke-width="0.8" stroke-dasharray="3,3"/>
+            <text x="612" y="280" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="10" fill="#c98a4b">대기 지연</text>
+
+            <line x1="64" y1="296" x2="1160" y2="296" stroke="rgba(43,33,26,0.12)" stroke-width="0.8"/>
+
+            <!-- legend -->
+            <line x1="64" y1="316" x2="84" y2="316" stroke="#a9805f" stroke-width="1.5"/>
+            <circle cx="84" cy="316" r="3" fill="#faf6f1" stroke="#a9805f" stroke-width="1.2"/>
+            <text x="92" y="320" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">체감 만족도 흐름</text>
+
+            <circle cx="284" cy="316" r="4" fill="#faf6f1" stroke="#c98a4b" stroke-width="1.5"/>
+            <text x="296" y="320" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">가장 아쉬운 순간</text>
+
+            <rect x="504" y="310" width="16" height="10" rx="2" fill="rgba(201,138,75,0.10)" stroke="#c98a4b" stroke-width="0.8" stroke-dasharray="2,2"/>
+            <text x="528" y="320" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">혼잡으로 인한 지연</text>
+          </svg>
+        </div>
+        <p class="story__caption">가장 붐비는 시간대의 &lsquo;대기&rsquo; 구간을 제외하면, 방문부터 여유로운 시간까지 만족도가 꾸준히 높습니다.</p>
+      </div>
+
+      <div class="story__card">
+        <p class="story__eyebrow">MENU STRUCTURE</p>
+        <h3>시그니처 메뉴 구성</h3>
+        <div class="story__diagram">
+          <svg viewBox="0 0 900 332" role="img" aria-labelledby="menutree-title menutree-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="menutree-title">시그니처 메뉴 구성</title>
+            <desc id="menutree-desc">시그니처 메뉴가 커피, 논커피, 디저트 세 카테고리로 나뉘고 각 카테고리 아래 대표 메뉴가 이어지는 트리 다이어그램입니다.</desc>
+            <rect width="900" height="332" fill="#faf6f1"/>
+
+            <!-- connectors (drawn before nodes) -->
+            <line x1="450" y1="64" x2="450" y2="140" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="180" y1="100" x2="720" y2="100" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="180" y1="100" x2="180" y2="140" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="720" y1="100" x2="720" y2="140" stroke="#6f4e37" stroke-width="1"/>
+
+            <line x1="180" y1="188" x2="180" y2="224" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="96" y1="224" x2="264" y2="224" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="96" y1="224" x2="96" y2="260" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="264" y1="224" x2="264" y2="260" stroke="#6f4e37" stroke-width="1"/>
+
+            <line x1="450" y1="188" x2="450" y2="260" stroke="#6f4e37" stroke-width="1"/>
+
+            <line x1="720" y1="188" x2="720" y2="224" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="636" y1="224" x2="804" y2="224" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="636" y1="224" x2="636" y2="260" stroke="#6f4e37" stroke-width="1"/>
+            <line x1="804" y1="224" x2="804" y2="260" stroke="#6f4e37" stroke-width="1"/>
+
+            <!-- root -->
+            <rect x="378" y="16" width="144" height="48" rx="6" fill="rgba(201,138,75,0.14)" stroke="#c98a4b" stroke-width="1.2"/>
+            <text x="450" y="44" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="13" font-weight="700" fill="#2b211a">시그니처 메뉴</text>
+
+            <!-- categories -->
+            <rect x="108" y="140" width="144" height="48" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+            <text x="180" y="168" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">☕ 커피</text>
+
+            <rect x="378" y="140" width="144" height="48" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+            <text x="450" y="168" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">🍋 논커피</text>
+
+            <rect x="648" y="140" width="144" height="48" rx="6" fill="#ffffff" stroke="#2b211a" stroke-width="1"/>
+            <text x="720" y="168" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" font-weight="600" fill="#2b211a">🍰 디저트</text>
+
+            <!-- leaves -->
+            <rect x="24" y="260" width="144" height="48" rx="6" fill="rgba(43,33,26,0.03)" stroke="#a9805f" stroke-width="0.8"/>
+            <text x="96" y="288" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">모먼트 블렌드</text>
+
+            <rect x="192" y="260" width="144" height="48" rx="6" fill="rgba(43,33,26,0.03)" stroke="#a9805f" stroke-width="0.8"/>
+            <text x="264" y="288" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">바닐라 라떼</text>
+
+            <rect x="378" y="260" width="144" height="48" rx="6" fill="rgba(43,33,26,0.03)" stroke="#a9805f" stroke-width="0.8"/>
+            <text x="450" y="288" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">레몬 에이드</text>
+
+            <rect x="564" y="260" width="144" height="48" rx="6" fill="rgba(43,33,26,0.03)" stroke="#a9805f" stroke-width="0.8"/>
+            <text x="636" y="288" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">버터 크루아상</text>
+
+            <rect x="732" y="260" width="144" height="48" rx="6" fill="rgba(43,33,26,0.03)" stroke="#a9805f" stroke-width="0.8"/>
+            <text x="804" y="288" text-anchor="middle" font-family="'Geist','Noto Sans KR',sans-serif" font-size="12" fill="#6f4e37">바스크 치즈케이크</text>
+          </svg>
+        </div>
+        <p class="story__caption">커피 · 논커피 · 디저트 3개 카테고리 아래 대표 시그니처 메뉴가 자리합니다.</p>
+      </div>
     </div>
   </div>
 </section>
